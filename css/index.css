@@ -1,0 +1,76 @@
+@import "./reset.css";
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Nunito+Sans:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@1,700&display=swap');
+
+
+/* 
+font-family: 'DM Sans', sans-serif;
+font-family: 'Poppins', sans-serif;
+*/
+
+
+
+html,body {
+    font-family: 'DM Sans', sans-serif;
+}
+
+.container {
+    margin: 0 auto;
+    padding: 0 15px;
+    max-width: 1200px;
+}
+
+/* Navigation */
+
+.nav {
+    padding: 20px 0;
+    border-bottom: 1px solid #26292D;
+    background-color: #171718;
+    color: #ffffff;
+}
+
+.nav-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    column-gap: 30px;
+    row-gap: 20px;
+    flex-wrap: wrap;
+}
+
+.nav-list {
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    font-weight: 500px;
+    column-gap: 40px;
+    row-gap: 30px;
+} 
+
+.nav-list__link{
+    color: #ffffff;
+}
+.nav-list__link--active{
+ position: relative;
+}
+.nav-list__link--active::before{
+    content: "";
+
+    position: absolute;
+    left: 0;
+    top: 100%;
+    display: block;
+    height: 2px;
+    width: 100%;
+    background-color: #5C62EC ;
+}
+
+.logo{
+    font-family: 'Poppins', sans-serif;
+    color: #ffffff;
+    font-size: 24px;
+}
+
+.logo strong {
+    font-weight: 700;
+}
