@@ -140,6 +140,9 @@ html,body {
     margin-top: 1em;
 }
 
+
+/* Button */
+
 .btn {
     display: inline-block;
     height: 48px;
@@ -161,3 +164,50 @@ html,body {
     position: relative;
     top: 1px;
 }
+
+/* main */
+
+.section {
+    padding: 70px 0;
+}
+
+.title-1 {
+    margin-bottom: 60px;
+
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 1.3;
+    text-align: center;
+    color: var(--accent);
+}
+
+.food__img {
+    width: 370px;
+    height: 278px;
+    border: solid 1px;
+    border-radius: 10px;
+}
+
+.food-card {
+    display: flex;
+    margin-left: 25px;
+    flex-wrap: wrap;
+    column-gap: 30px;
+    row-gap: 30px;
+}
+
+.food {
+    max-width: 370px;
+    background-color: var(--white);
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+}
+
+.food-title {
+  padding: 15px 20px 25px;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 1.3;
+  letter-spacing: -0.5px;
+}
+    
