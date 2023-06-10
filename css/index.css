@@ -32,6 +32,10 @@ html,body {
     max-width: 1200px;
 }
 
+.none {
+    display: none !important;
+}
+
 /* Navigation */
 
 .nav {
@@ -212,3 +216,24 @@ html,body {
   color: var(--text-color);
 }
     
+/* Footer */
+
+.footer {
+    background-color: var(--dark-bg);
+    padding: 60px 0 50px;
+    color: var(--header-text);
+}
+
+.footer__wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    row-gap: 27px;
+}
+
+.social {
+    display: flex;
+    column-gap: 30px;
+    align-items: center;
+}
