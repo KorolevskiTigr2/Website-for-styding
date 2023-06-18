@@ -56,7 +56,7 @@ html,body {
 
 .nav-row {
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-end;
     align-items: center;
     column-gap: 30px;
     row-gap: 20px;
@@ -96,9 +96,21 @@ html,body {
     background-color: var(--purple) ;
 }
 
+.logo{
+    margin-right: auto;
+    font-family: 'Poppins', sans-serif;
+    color: var(--header-text);
+    font-size: 24px;
+}
+
+.logo strong {
+    font-weight: 700;
+}
+
 /* Dark mode button */
 
 .dark_mode_btn {
+    order: 1;
     position: relative;
     display: flex;
     justify-content: space-between;
@@ -132,18 +144,6 @@ html,body {
 
 .dark_mode_btn_item {
     position: relative;
-}
-
-
-
-.logo{
-    font-family: 'Poppins', sans-serif;
-    color: var(--header-text);
-    font-size: 24px;
-}
-
-.logo strong {
-    font-weight: 700;
 }
 
 /* Header */
