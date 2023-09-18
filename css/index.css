@@ -25,7 +25,7 @@ font-family: 'Poppins', sans-serif;
 }
 
 .dark {
-    transition: 0.5s ease-in;
+    /* transition: 0.5s ease-in; */
     --page-bg: #252526;
     --text-color: var(--white);
 
@@ -154,11 +154,11 @@ html,body {
     border-radius: 50%;
     background-color: var(--white);
 
-    transition: left 0.2s ease-in;
+    transition: left 0.5s ease-in;
 }
 
 .dark_mode_btn--active::before {
-  left: 26px;
+  left:26px;
 }
 
 .dark_mode_btn_item {

@@ -1,4 +1,10 @@
 const btnDarkMode = document.querySelector('.dark_mode_btn');
+const btnHandle = document.querySelector('.btn');
+
+// check btnHandle
+ btnHandle.addEventListener('click', () => {
+    console.log('I have clicked btnHandle!')
+ })
 
 // check browser settings
 if(window.matchMedia && window.matchMedia("(prefers-color-scheme: dark)").matches) {
